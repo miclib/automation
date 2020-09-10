@@ -5,7 +5,7 @@ class PgConn:
         returnCode = 0                          #Return code from database action           
 
         def __init__(self, dbname , user , password):
-            self.dbname = dbname
+             self.dbname = dbname
             self.user = user 
             self.password = password
 
