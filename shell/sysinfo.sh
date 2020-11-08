@@ -20,3 +20,5 @@ set |grep SHELL
 echo "shell:"  $(readlink /bin/sh)
 echo "-------------------------------------------------"
 echo "  "
+echo "List partitions" 
+lsblk
