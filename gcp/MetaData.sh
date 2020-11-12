@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Bucket Meta Data Utility" 
+echo "GCP Storage Meta Data Utility version 1.2" 
 if [ "$1" == "" ]; 
 then 
 	echo "Missing Bucket Name" 
